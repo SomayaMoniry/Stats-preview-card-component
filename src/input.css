@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&family=Roboto:ital@1&display=swap");
 
 @layer base {
-  html {
+  body {
     font-family: "Inter", sans-serif;
   }
 }

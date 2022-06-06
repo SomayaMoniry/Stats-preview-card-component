@@ -9,24 +9,60 @@
   </head>
   <body>
     <!-- container -->
-    <main class="grid md:grid-cols-2 w-[78%] mx-auto h-[60vh] mt-[8rem]">
-      <!-- left side -->
-      <div class="bg-[#1b1938] w-full h-full rounded-bl-md rounded-tl-md p-16">
-        <h2 class="text-3xl text-[#FFFFFF] font-bold w-[19.5rem]">
-          Get <span class="text-[#aa5cdb]"> insights </span> that help your
-          business grow.
-        </h2>
-        <p
-          class="text-white text-sm opacity-75 mt-5 leading-[1.30rem] w-[19rem]"
-        >
-          Discover the benefits of data analytics and make better decisions
-          regarding revenue, customer experience, and overall efficiency.
-        </p>
-      </div>
-
+    <main
+      class="grid grid-cols-1 p-6 xl:p-24 xl:grid-cols-2 mx-auto xl:max-w-[1300px] max-w-[370px]"
+    >
       <!-- right side -->
       <div
-        class="w-full h-full rounded-br-md rounded-tr-md overflow-hidden bg-blend-multiply bg-cover bg-no-repeat bg-[#aa5cdb] bg-[url('../images/image-header-desktop.jpg')]"
+        class="bg-[#1b1938] rounded-bl-md xl:rounded-br-none xl:rounded-tl-md rounded-br-md xl:h-[30rem] px-10 py-10 xl:px-0 xl:py-0"
+      >
+        <div class="xl:p-20 xl:text-left xl:w-[37rem] text-center">
+          <h2
+            class="text-white font-bold text-2xl xl:text-4xl text-center xl:text-left tracking-wider"
+          >
+            Get <span class="text-[#aa5cdb]"> insights </span> that help your
+            business grow.
+          </h2>
+          <p
+            class="text-white opacity-75 text-center xl:text-left tracking-wider font-thin xl:pt-[2rem] xl:text-sm xl:w-[22rem] xl:leading-6 text-sm py-7"
+          >
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+        </div>
+
+        <div
+          class="flex xl:flex-row text-white flex-col justify-center items-center gap-8 text-center xl:text-left xl:justify-start xl:pl-20 pt-5 xl:pt-0 xl:pb-4 xl:gap-14"
+        >
+          <span>
+            <p class="font-bold text-xl xl:text-2xl">10K&plus;</p>
+            <p class="opacity-60 text-xs mt-2 tracking-widest font-thin">
+              COMPANIES
+            </p></span
+          >
+          <span>
+            <p class="font-bold text-xl xl:text-2xl">314</p>
+            <p class="opacity-60 text-xs mt-2 tracking-widest font-thin">
+              TEMPLATES
+            </p></span
+          >
+
+          <span>
+            <p
+              class="font-bold text-xl xl:text-2xl after:content-['+'] after:ml-[-0.2rem]"
+            >
+              12M
+            </p>
+            <p class="opacity-60 text-xs mt-2 tracking-widest font-thin">
+              QUERIES
+            </p></span
+          >
+        </div>
+      </div>
+
+      <!-- left side -->
+      <div
+        class="rounded-tr-md rounded-tl-md xl:rounded-tl-none overflow-hidden bg-blend-multiply bg-cover bg-no-repeat bg-[#aa5cdb] h-[15rem] row-start-1 xl:row-span-3 xl:h-[30rem] xl:rounded-br-md xl:bg-[url('../images/image-header-desktop.jpg')] bg-[url('../images/image-header-mobile.jpg')] bg-center"
       ></div>
     </main>
   </body>
